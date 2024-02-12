@@ -1,0 +1,33 @@
+.TodoItem {
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    padding: 0;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 5px #C6B0FF;
+}
+
+.TodoItem span {
+    margin: auto 10px;
+    cursor: pointer;
+}
+
+.TodoItem p {
+    flex-grow: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.TodoItem-p--complete{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.TodoItem-completed--check{
+    color: green;
+}
+
+.TodoItem-delete:hover{
+    color: red;
+}

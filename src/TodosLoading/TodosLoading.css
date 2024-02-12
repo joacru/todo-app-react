@@ -1,0 +1,21 @@
+.TodoLoading-container{
+    margin: 10px auto;
+    padding: 10px 0;
+    border-radius: 10px;
+    /*box-shadow: 0px 5px #C6B0FF;*/
+    background: linear-gradient(90deg, #C366FF, #C6B0FF);
+    background-size: 400% 400%;
+    animation: loadingAnimation 3s ease-in-out infinite;
+}
+
+@keyframes loadingAnimation{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0%, 50%;
+    }
+}
